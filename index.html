@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <h1>TimeTrack</h1>
+    <h2 class="sub">Live Digital Clock</h2>
+
+    <div id="clk-box">
+      <div id="clk">00:00:00 <span id="ampm">AM</span></div>
+      <div id="dt"></div>
+    </div>
+
+    <div class="fmt">
+      <label>
+        <input type="checkbox" id="fmtSw" />
+        24-Hour Format
+      </label>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
