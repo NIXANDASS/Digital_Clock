@@ -1,5 +1,5 @@
 # Digital_Clock
-## Date:
+## Date: 10 / 07 /25
 ## Objective:
 To create a live digital clock using HTML, CSS, and JavaScript that updates every second and displays the current time in HH:MM:SS format — a feature commonly used in dashboards and admin panels.
 
